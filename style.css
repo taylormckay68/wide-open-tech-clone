@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Open+Sans:400,700|Oswald:200,300,400,500,600,700');
+.main-header-wrapper {
+  height: 70vh;
+  width: 100%;
+  background-image: url('./img/wot-masthead-dark.jpg');
+  background-size: cover;
+}
+.main-header-container {
+  height: 15vh;
+  width: 100%;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+  padding: 0 130px;
+}
+
+.left-header-container img {
+  height: 35px;
+}
+
+.right-nav-links {
+  display: flex;
+  flex-direction: row;
+}
+.right-nav-links a {
+  color: white;
+  padding: 0 15px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+}
+.jumbo-wrapper {
+  height: 55vh;
+  width: 100%;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+  padding-top: 40px;
+
+}
+.your-digital {
+  font-size: 22px;
+  font-weight: 500;
+
+}
+.workshop {
+  font-size: 155px;
+  font-weight: 300;
+  line-height: 140px;
+}
+.business-solutions-container {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  padding-top: 30px;
+  padding-left: 10px;
+
+}
+.learn-more-button {
+  width: 360px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #b0d118;
+  color: white;
+  margin-top: 45px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  border: 1px solid #b0d118;
+}
+.how-wrapper {
+  width: 100%;
+  background-color: #ededed;
+  display: flex;
+	flex-direction: column;
+  text-align: center;
+  padding: 0 300px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  color: #6a787c;
+  align-items: center;
+}
+.how-top-text {
+  margin-top: 35px;
+}
+.how-wrapper img{
+  width: 75px;
+  height: 75px;
+  margin-top: 20px;
+}
+.how-bottom-text {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 42px;
+  line-height: 46px;
+  margin: 15px 0 50px 0;
+}
+.three-logos-wrapper {
+  height: 550px;
+  width: 90%;
+  background-color: #ffffff;
+  padding-left: 10%;
+}
+.three-logos-container {
+  height: 450px;
+  width: 100%;
+  display: flex;
+  margin-top: 60px;
+
+}
+.light-bulb-container {
+  flex: 1;
+  border: 1px solid gray;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.light-bulb-container p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #97a2a7;
+}
+.light-bulb-container a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #b0d118;
+}
+.light-bulb-top-text {
+  width: 100%;
+  text-align: center;
+}
+.arrow-container {
+  flex: 1;
+  border: 1px solid gray;
+  text-align: center;
+}
+.power-btn-container {
+  flex: 1;
+  border: 1px solid gray;
+}
